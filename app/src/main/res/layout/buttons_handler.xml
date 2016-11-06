@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout android:id="@+id/widget434"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TableLayout android:id="@+id/widget435"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_x="50px"
+        android:layout_y="90px">
+
+        <TableRow android:id="@+id/tr1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/butt_handler_forward"
+                android:layout_column="1"
+                android:src="@drawable/up"
+                android:background="@android:color/transparent"
+                android:paddingBottom="10px"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"></ImageButton>
+        </TableRow>
+
+        <TableRow android:id="@+id/tr2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/butt_handler_left"
+                android:src="@drawable/left"
+                android:background="@android:color/transparent"
+                android:paddingRight="10px"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/butt_handler_stop"
+                android:src="@drawable/stop"
+                android:background="@android:color/transparent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/butt_handler_right"
+                android:src="@drawable/right"
+                android:background="@android:color/transparent"
+                android:paddingLeft="10px"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"></ImageButton>
+        </TableRow>
+
+        <TableRow android:id="@+id/tr3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/butt_handler_back"
+                android:layout_column="1"
+                android:src="@drawable/down"
+                android:background="@android:color/transparent"
+                android:paddingTop="10px"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"></ImageButton>
+        </TableRow>
+
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/power"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ButtHandler_powerText"
+        android:layout_x="130px"
+        android:layout_y="340px"></TextView>
+
+    <TextView
+        android:id="@+id/butt_handler_pow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="190px"
+        android:layout_y="340px"
+        android:text="70"></TextView>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="300dip"
+        android:layout_height="wrap_content"
+        android:layout_y="375px">
+
+        <SeekBar
+            android:id="@+id/button_handler_progress"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="30px"
+            android:paddingRight="30px"
+            android:max="100"
+            android:progress="70" />
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/button_handler_record"
+        android:layout_column="1"
+        android:src="@drawable/rec"
+        android:background="@android:color/transparent"
+        android:paddingTop="10px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></ImageButton>
+</AbsoluteLayout>

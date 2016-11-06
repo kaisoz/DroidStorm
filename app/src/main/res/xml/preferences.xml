@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="@string/prf_categoryLocale_title">
+
+        <ListPreference
+            android:entries="@array/localeEntries"
+            android:entryValues="@array/localeValues"
+            android:summary="@string/prf_locale_summary"
+            android:title="@string/prf_locale_title"
+            android:key="@string/prf_locale_id"
+            android:defaultValue=""></ListPreference>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/prf_categoryMotor_title">
+
+        <ListPreference
+            android:key="@string/prf_motorLeft_id"
+            android:title="@string/prf_motorLeft_title"
+            android:summary="@string/prf_motorLeft_summary"
+            android:entries="@array/motorEntries"
+            android:entryValues="@array/motorValues"></ListPreference>
+        <ListPreference
+            android:key="@string/prf_motorRight_id"
+            android:title="@string/prf_motorRight_title"
+            android:summary="@string/prf_motorRight_summary"
+            android:entries="@array/motorEntries"
+            android:entryValues="@array/motorValues"></ListPreference>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/prf_categorySynch_title">
+
+        <ListPreference
+            android:key="@string/prf_synchMode_id"
+            android:title="@string/prf_synchMode_title"
+            android:summary="@string/prf_synchMode_summary"
+            android:entries="@array/synchEntries"
+            android:entryValues="@array/synchValues"
+            android:defaultValue="0"></ListPreference>
+        <ListPreference
+            android:key="@string/prf_irPort_id"
+            android:title="@string/prf_irPort_title"
+            android:summary="@string/prf_irPort_summary"
+            android:entries="@array/portEntries"
+            android:entryValues="@array/portValues"
+            android:shouldDisableView="true"
+            android:defaultValue="-1"></ListPreference>
+        <EditTextPreference
+            android:key="@string/prf_firstStart_id"
+            android:enabled="false"
+            android:defaultValue="true"></EditTextPreference>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

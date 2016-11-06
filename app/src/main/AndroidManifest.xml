@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="net.kaisoz.droidstorm">
+
+    <application android:name="net.kaisoz.droidstorm.util.DroidStormApp">
+
+        <activity
+            android:label="@string/app_name"
+            android:name="Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".connmanager.ConnectionManagerActivity"
+            android:label="@string/activity_label_connman"
+            android:configChanges="keyboardHidden|orientation|locale" />
+        <activity
+            android:label="@string/activity_label_selhandler"
+            android:configChanges="keyboardHidden|orientation|locale"
+            android:name=".nxt.handler.HandlerSelectorActivity" />
+        <activity
+            android:label="@string/activity_label_preferences"
+            android:configChanges="keyboardHidden|orientation|locale"
+            android:name="PreferencesActivity" />
+        <activity
+            android:screenOrientation="landscape"
+            android:label="@string/activity_label_movhandler"
+            android:configChanges="keyboardHidden|orientation|locale"
+            android:name=".nxt.handler.MovementHandlerActivity" />
+        <activity
+            android:label="@string/activity_label_butthandler"
+            android:configChanges="keyboardHidden|orientation|locale"
+            android:name=".nxt.handler.ButtonHandlerActivity" />
+        <activity
+            android:name="net.kaisoz.droidstorm.nxt.follower.FileRunnerActivity"
+            android:label="Follower configuration"
+            android:configChanges="keyboardHidden|orientation"
+            android:theme="@android:style/Theme.Dialog" />
+        <activity
+            android:name=".nxt.follower.FollowerConfiguratorActivity"
+            android:label="Follower configuration"></activity>
+        <activity
+            android:label="@string/activity_label_demohandler"
+            android:configChanges="keyboardHidden|orientation|locale"
+            android:name=".nxt.handler.DemoHandlerActivity"></activity>
+        <activity
+            android:name=".nxt.follower.FileSelectActivity"
+            android:label="Select file to start"></activity>
+
+        <activity
+            android:label="File Explorer"
+            android:name=".nxt.demo.FileExplorerActivity"></activity>
+
+        <activity
+            android:label="Select demo"
+            android:name=".nxt.demo.DemoSelectorActivity"></activity>
+
+    </application>
+
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+
+</manifest>

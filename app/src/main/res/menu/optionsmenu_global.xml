@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:enabled="true"
+        android:visible="true"
+        android:orderInCategory="0"
+        android:id="@+id/connman"
+        android:title="@string/optionsMenu_connMan"></item>
+    <item
+        android:enabled="true"
+        android:visible="true"
+        android:orderInCategory="0"
+        android:id="@+id/preferences"
+        android:title="@string/optionsMenu_preferences"></item>
+
+    <item
+        android:id="@+id/exit"
+        android:title="@string/optionsMenu_exit"></item>
+</menu>

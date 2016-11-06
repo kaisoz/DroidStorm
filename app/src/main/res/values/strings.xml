@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DroidStorm</string>
+
+    <string name="bt_alert_title_search">Robot search</string>
+    <string name="bt_alert_title_deviceConnection">Robot connection</string>
+    <string name="bt_alert_title_error">Error</string>
+    <string name="bt_alert_title_deviceDisconnection">Robot disconnection</string>
+    <string name="bt_alert_msg_searching">Searching for robots...</string>
+    <string name="bt_alert_msg_connectingTo">Connecting...</string>
+    <string name="bt_alert_msg_connectionSuccess">Connected successfully to\n\n</string>
+    <string name="bt_alert_msg_disconnectionSuccess">Disconnected successfully from\n\n</string>
+    <string name="bt_alert_msg_errorConnecting">Error connecting to</string>
+    <string name="bt_alert_msg_errorDisconnecting">Error disconnecting from</string>
+    <string name="bt_alert_msg_disconnectingFrom">Disconnecting from</string>
+    <string name="bt_alert_msg_connectionError">Connection Error</string>
+    <string name="bt_alert_msg_errorBluetooth">Unable to find bluetooth</string>
+    <string name="bt_alert_msg_noDevicesFound">No devices found</string>
+    <string name="handler_alert_title_waitForFollower">Wait for follower!</string>
+    <string name="handler_alert_msg_waitForFollower">Waiting for the follower to be ready..</string>
+    <string name="leaderSel_alert_title">Start program</string>
+    <string name="leaderSel_alert_msg">Do you want to start IRProgram in robot</string>
+    <string name="robotComm_alert_title">Robot</string>
+    <string name="robotComm_alert_response_title">Robot Response</string>
+    <string name="fileSelect_alert_msg">Reading robot files...</string>
+    <string name="followerConf_alert_starting_msg">Starting</string>
+    <string name="followerConf_alert_started_success_msg">started successfully</string>
+    <string name="followerConf_alert_started_error_msg">Error starting</string>
+    <string name="leaderSel_alert_msg_starting">Starting IRFollower...</string>
+    <string name="fileExplorer_alert_title_openFile">Question</string>
+    <string name="fileExplorer_alert_msg_openFile">Do you want to open file </string>
+
+    <string name="splash_alert_title_bluetooth">Bluetooth</string>
+    <string name="splash_alert_msg_enablingBluetooth">Enabling Bluetooth...</string>
+    <string name="alert_button_positive">Accept</string>
+    <string name="alert_button_negative">Cancel</string>
+    <string name="alert_button_yes">Yes</string>
+    <string name="alert_button_no">No</string>
+
+    <string name="splash_toast_btAlreadyEnabled">Bluetooth already enabled</string>
+    <string name="splash_alert_msg_errorOcurred">An Error happened during Bluetooth activation</string>
+    <string name="splash_alert_msg_couldntInitBT">Couldn\'t enable Bluetooth</string>
+    <string name="bt_toast_uncheckAllFound">Only connected devices can be selected.\nUncheck all found devices first</string>
+    <string name="bt_toast_uncheckAllConnected">Only found devices can be selected.\nUncheck all connected devices first</string>
+    <string name="handler_toast_followmeModeOn">Follow me mode enabled.\nIR emitter ON in motor port </string>
+    <string name="handler_toast_followmeModeOnNOPORT">Follow me mode enabled but no IR Emitter port selected</string>
+    <string name="handler_toast_followmeModeOnOneDevice">Follow me mode enabled but only one device connected</string>
+    <string name="baseHandler_toast_savedsuccesfully">saved successfully in database</string>
+    <string name="movHandler_toast_startRecording">Tap the screen to start recording</string>
+    <string name="movHandler_toast_stopRecording">Tap the screen again to stop recording</string>
+    <string name="followerConf_toast_selectFollower">Select the follower</string>
+    <string name="toast_selectWheels">Please, put the Mindstorm facing you and select each wheel in the wheel selectors</string>
+    <string name="toast_selectDevices">Select one or more Mindstorm robots to connect to</string>
+    <string name="toast_irEmitterOff">IR Emiter Off</string>
+
+    <string name="activity_label_preferences">Select preferences</string>
+    <string name="activity_label_movhandler">Movement Control</string>
+    <string name="activity_label_butthandler">Button Control</string>
+    <string name="activity_label_demohandler">Demo</string>
+    <string name="activity_label_connman">Connection manager</string>
+    <string name="activity_label_selhandler">Select handler</string>
+
+    <string name="optionsMenu_connMan">Connection Manager</string>
+    <string name="optionsMenu_preferences">Preferences</string>
+    <string name="optionsMenu_exit">Exit</string>
+
+    <string name="prf_categoryLocale_title">Language</string>
+    <string name="prf_categoryMotor_title">Motor preferences</string>
+    <string name="prf_categorySynch_title">Synchronization</string>
+    <string name="prf_locale_id">locale</string>
+    <string name="prf_locale_title">Select language</string>
+    <string name="prf_locale_summary">Selected language</string>
+    <string name="prf_motorLeft_id">leftMotorPort</string>
+    <string name="prf_motorLeft_title">Left Motor</string>
+    <string name="prf_motorLeft_summary">Select motor for left wheel</string>
+    <string name="prf_motorRight_id">rightMotorPort</string>
+    <string name="prf_motorRight_title">Right Wheel</string>
+    <string name="prf_motorRight_summary">Select motor for right wheel</string>
+    <string name="prf_synchMode_id">synchMode</string>
+    <string name="prf_synchMode_title">Synchronization</string>
+    <string name="prf_synchMode_summary">Select synchronization type</string>
+    <string name="prf_irPort_id">irPort</string>
+    <string name="prf_irPort_title">IR Emitter port</string>
+    <string name="prf_irPort_summary">Select the motor port where the IR Emitter is connected</string>
+    <string name="prf_firstStart_id">firstStart</string>
+
+    <string name="handlerSel_movCtrlButton">Movement Control</string>
+    <string name="handlerSel_ButtonCrlButton">Button Control</string>
+    <string name="handlerSel_Demo">Demo</string>
+    <string name="DemoHandler_startDemo">Start Demo</string>
+    <string name="DemoHandler_setDemoName">Set demo name</string>
+    <string name="DemoHandler_loadXML">Load XML actions file</string>
+    <string name="DemoHandler_NoActionsLoaded">No actions loaded</string>
+    <string name="DemoHandler_CoulndtLoadDB">Couldn\'t load actions from database</string>
+    <string name="DemoHandler_StartingDemo">Starting demo</string>
+    <string name="DemoHandler_ErrorLoadXML">Error loading XML</string>
+    <string name="ButtonHandler_StartRecording">Tap REC button to start recording</string>
+    <string name="ButtonHandler_StopRecording">Tap REC button again to stop recording</string>
+    <string name="ButtHandler_powerText">Power:</string>
+    <string name="connMann_connectButton">Connect</string>
+    <string name="connMann_disconnectButton">Disconnect</string>
+    <string name="connMann_searchButton">Search</string>
+    <string name="devAdapter_foundString">Found</string>
+    <string name="devAdapter_devicesString">devices</string>
+    <string name="devAdapter_connectedString">Connected</string>
+    <string name="DemoSel_adapter_noDemos">Currently, there are no demos in database</string>
+    <string name="BTManager_enabling">Enabling...</string>
+    <string name="BTManager_disabling">Disabling...</string>
+
+
+    <string name="ALERT_no_connected">Debe conectarse a un dispositivo primero</string>
+    <string name="ALERT_No_motors_selected">Debe seleccionar los motores para poder manejar el dispositivo</string>
+
+</resources>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout android:id="@+id/table_demo"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/demo_handler_loadDB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Load from Database"></Button>
+
+    <Button
+        android:id="@+id/demo_handler_loadXML"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/DemoHandler_loadXML"></Button>
+
+    <Button
+        android:id="@+id/demo_handler_Start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/DemoHandler_startDemo"></Button>
+
+    <ScrollView
+        android:id="@+id/demo_handler_scrollview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/demo_handler_Start">
+
+        <TextView
+            android:id="@+id/demo_handler_commands"
+            android:layout_width="wrap_content"
+            android:layout_height="368px"
+            android:text=""></TextView>
+
+    </ScrollView>
+</TableLayout>

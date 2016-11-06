@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@+id/widget33"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ExpandableListView
+        android:id="@+id/android:list"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+
+    <TextView
+        android:id="@+id/android:empty"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+
+    <Button
+        android:id="@+id/connectButton"
+        android:layout_height="wrap_content"
+        android:layout_width="150px"
+        android:text="@string/connMann_connectButton"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true" />
+
+    <Button
+        android:id="@+id/disconnect"
+        android:layout_width="100px"
+        android:layout_height="wrap_content"
+        android:text="@string/connMann_disconnectButton"
+        android:layout_toRightOf="@+id/connectButton"
+        android:layout_alignParentBottom="true" />
+
+    <Button
+        android:id="@+id/search"
+        android:layout_width="100px"
+        android:layout_height="wrap_content"
+        android:text="@string/connMann_searchButton"
+        android:layout_toRightOf="@+id/disconnect"
+        android:layout_alignParentBottom="true" />
+
+</RelativeLayout>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--  Locale -->
+    <string-array name="localeEntries">
+        <item>English</item>
+        <item>Spanish</item>
+    </string-array>
+    <string-array name="localeValues">
+        <item>en</item>
+        <item>es</item>
+    </string-array>
+
+    <!--  Motor ports -->
+    <string-array name="motorEntries">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <!--item>All</item-->
+    </string-array>
+    <string-array name="motorValues">
+        <item>0</item>
+        <item>256</item>
+        <item>512</item>
+        <!--item>65280</item-->
+    </string-array>
+
+    <!--  IR Emitter Conf -->
+    <string-array name="synchEntries">
+        <item>Syncrhonization</item>
+        <item>Follow me</item>
+    </string-array>
+    <string-array name="synchValues">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="portEntries">
+        <item>None</item>
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+    </string-array>
+    <string-array name="portValues">
+        <item>-1</item>
+        <item>0</item>
+        <item>256</item>
+        <item>512</item>
+    </string-array>
+
+</resources>

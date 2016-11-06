@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout android:id="@+id/widget41"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:id="@+id/widget43"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select and run file"
+        android:layout_x="0px"
+        android:layout_y="2px"></TextView>
+
+    <TextView
+        android:id="@+id/widget44"
+        android:layout_width="wrap_content"
+        android:layout_height="23px"
+        android:text="Upload and run file"
+        android:layout_x="0px"
+        android:layout_y="62px"></TextView>
+
+    <RadioButton
+        android:id="@+id/fileRunner_upload"
+        android:layout_width="40px"
+        android:layout_height="wrap_content"
+        android:layout_x="160px"
+        android:layout_y="52px"></RadioButton>
+
+    <RadioButton
+        android:id="@+id/FileRunner_select"
+        android:layout_width="38px"
+        android:layout_height="wrap_content"
+        android:layout_x="160px"
+        android:layout_y="2px"></RadioButton>
+
+    <Button
+        android:id="@+id/fileRunner_accept"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ok"
+        android:layout_x="50px"
+        android:layout_y="102px"></Button>
+</AbsoluteLayout>
